@@ -1,0 +1,134 @@
+.main_nav_bar {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .bye-bye{
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+  }
+.nav-container{
+  width: 100%;
+  align-items: center;
+  position: relative;
+  display: none;
+}
+.instagram-pic{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 80%;
+}
+.linkedin-pic{
+  height: 38px;
+  width: 38px;
+  left: 90%;
+  position: absolute;
+}
+.github-pic{
+  height: 38px;
+  width: 38px;
+  position: absolute;
+  left: 70%;
+}
+.nav-container ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+body{
+  background: url("main-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.main-content{
+width: 100%;
+ justify-content: center;
+ display: flex;
+ align-items: center;
+}
+.landing-spot{
+  height: 300px;
+ display: flex;
+ flex-direction: column;
+ padding-top: 40px;
+ padding-bottom: 40px;
+ padding-right: 50%;
+}
+.name{
+  height: 120px;
+  position: absolute;
+  top: 35%;
+  left: 26%;
+}
+.desc-para{
+  height: 120px;
+  position: absolute;
+  top: 40%;
+}
+.name > h1 {
+ font-family: 'Scope One', serif;
+ font-size: 7.9vw;
+ color: white;
+}
+.desc-para > h4 {
+ font-family: 'Scope One',serif;
+ justify-content: center;
+ font-size: 5.9vw;
+ color: white;
+ }
+.arrowpic {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 0;
+
+}
+
+
+@media(min-width: 700px){
+  .nav-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    list-style: none;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Oswald',sans-serif;
+  }
+  .nav-container{
+    display: flex;
+    width: 100%
+  }
+  .mobile_menu{
+    display: none;
+  }
+  .bye-bye{
+    display: none;
+  }
+
+
+
+  .name{
+    left: 32%;
+  }
+  .name > h1{
+    font-size: 4.9vw;
+    left: 27%;
+}
+  .desc-para{
+    left: 31%;
+  }
+  .desc-para > h4{
+    font-size: 3.9vw;
+    bottom: 30%;
+    position: ;
+
+  }
+
+}
